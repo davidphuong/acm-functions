@@ -1,13 +1,23 @@
 // read strings split by spaces until end of file
-string str;
-while (cin >> str) {
-	... do stuff ...
+#include <iostream>
+using namespace std;
+int main() {
+	string str;				string str;
+	while (cin >> str) {			for (int i = 0; i < numStrings; i++) {
+		... do stuff ...			cin >> str;
+	}						... do stuff ...
+return 0;					}
 }
 
 // read lines from stdin until end of file
-string line;
-while (getline(cin, line)) {
-	... do stuff ...
+#include <iostream>
+using namespace std;
+int main() {
+	string line;				string line;
+	while (getline(cin, line)) {		for (int i = 0; i < numLines; i++) {
+		... do stuff ...			getline(cin, line);
+	}						... do stuff ...
+return 0;					}
 }
 
 
