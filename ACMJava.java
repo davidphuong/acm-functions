@@ -1,7 +1,9 @@
+import java.io.*;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import java.util.*;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
@@ -36,5 +38,14 @@ public class ACMJava {
         } catch (IOException io) {
             io.printStackTrace();
         }
+
+        ArrayList<String> al = new ArrayList<String>();
+        al.add("A");
+        al.add("B");
+
+        al.remove("B");
+        al.remove(0);
+
+        al.size();
     }
 }
