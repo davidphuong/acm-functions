@@ -18,7 +18,12 @@ public class ACMJava {
                 for (int i = 0; i < splitStr.length; i++) {
                     // Convert a string into a integer
                     int n = Integer.parseInt(splitStr[i]);
+                    double k = Double.parseDouble(splitStr[i]);
+                    long l = Long.parseLong(splitStr[i]);
                     System.out.println(n + " + 2 = " + (n + 2));
+                    System.out.println(k + " + 2 = " + (k + 2));
+                    System.out.println(l + " + 2 = " + (l + 2));
+                    System.out.println("");
                 }
             }
 
