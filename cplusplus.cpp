@@ -1,3 +1,18 @@
+// read strings split by spaces until end of file
+string str;
+while (cin >> str) {
+	... do stuff ...
+}
+
+// read lines from stdin until end of file
+string line;
+while (getline(cin, line)) {
+	... do stuff ...
+}
+
+
+--- FUNCTIONS ---
+
 // split string by space
 #include <sstream>
 #include <string>
